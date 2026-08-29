@@ -1,0 +1,24 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// Wi-Fi Configuration
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+
+// MQTT Configuration
+#define MQTT_SERVER "broker.hivemq.com"
+#define MQTT_PORT 1883
+#define MQTT_USER ""
+#define MQTT_PASSWORD ""
+#define MQTT_CLIENT_ID "ESP32-Agri-Node01"
+
+// Topics
+#define TOPIC_TELEMETRY "iot/agriculture/node_01/telemetry"
+#define TOPIC_COMMAND "iot/agriculture/node_01/pump/set"
+
+// Calibration Values (Capacitive Moisture Sensor)
+#define DRY_VALUE 3200 // Value in air
+#define WET_VALUE 1500 // Value in cup of water
+#define MOISTURE_THRESHOLD 35.0 // Trigger pump below 35%
+
+#endif
