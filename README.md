@@ -41,4 +41,4 @@ Lihat rincian pemetaan pin hardware pada file [`config.h.example`](./config.h.ex
 ---
 
 ## 📄 Lisensi
-Didistribusikan di bawah lisensi open-source **MIT License**. Dikembangkan oleh **Muhammad Fikri**.
+Didistribusikan di bawah lisensi open-source **MIT License**. Dibuat dengan ❤️ oleh **Muhammad Fikri Dev**.
